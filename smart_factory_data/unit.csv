@@ -1,0 +1,11 @@
+column_nm,unit
+target_weight,g
+net_weight,g
+current_weight,g
+cpu_temp,°C
+fan_rpm,rpm
+power_usage,W
+temp,°C
+humid,%
+voltage,V
+op_hours,hr

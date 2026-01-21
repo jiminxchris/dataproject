@@ -1,0 +1,15 @@
+column_nm,type,code,code_desc
+model_id,txt,M1,Galaxy Tab S9
+model_id,txt,M2,Galaxy Book 4
+model_id,txt,M3,Galaxy Watch 6
+model_id,txt,M4,Galaxy Buds 2
+line_id,txt,A,Line A (High)
+line_id,txt,B,Line B (Std)
+process_step,binary,0,조립 대기
+process_step,binary,1,조립 완료
+qa_status,txt,P,합격(Pass)
+qa_status,txt,F,불합격(Fail)
+defect_yn,txt,Y,불량 확인
+defect_yn,txt,N,정상
+error_code,txt,E1,과열(Overheat)
+error_code,txt,E2,진동 과다
