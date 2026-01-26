@@ -106,7 +106,6 @@ GROUP BY hatchday
 HAVING count(*) >= 12;
 
 -- 4. 
-
 SELECT farm, count(DISTINCT date) AS high_lux_days
 FROM env_cond
 WHERE lux >= 10
@@ -181,6 +180,3 @@ JOIN health_cond b
 ON a.chick_no = b.chick_no
 WHERE b.diarrhea_yn = 'Y'
 ORDER BY b.check_date desc;
-
-SELECT * 
-FROM chick_info;
