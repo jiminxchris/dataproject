@@ -9,6 +9,7 @@ memo.txt
 venv/
 .venv/
 env/
+sql/
 
 # Python 캐시 파일 제외
 __pycache__/
@@ -16,3 +17,5 @@ __pycache__/
 
 # 주피터 노트북 체크포인트 제외
 .ipynb_checkpoints/
+
+.gitignore
